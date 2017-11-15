@@ -1,0 +1,18 @@
+.block {
+    display: inline;
+
+}
+
+.top {
+    text-decoration: none;
+}
+
+.inline {
+    display: block;
+    border: 1px solid black;
+    margin: 25px;
+}
+
+article.n-child section:nth-of-type(even) {
+    border: 1px solid black;
+}
